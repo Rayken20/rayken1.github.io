@@ -1,0 +1,12 @@
+*{
+    margin: o;
+    padding: o;
+    background-color:burlywood;
+    display: flexbox;
+}
+.project{
+    color: aquamarine;
+}
+.learn{
+    background-color: blueviolet;
+}
