@@ -1,12 +1,49 @@
-*{
-    margin: o;
-    padding: o;
-    background-color:burlywood;
-    display: flexbox;
+.head{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 10px 10px 30px;
+    border: 2px solid black;
 }
-.project{
-    color: aquamarine;
+.welcome{
+    display: contents;
+    justify-content: center;
+}
+.about{
+    text-align: right;
+    justify-content: right;
+}
+.contact{
+    text-align: right;
+    justify-content: right;
 }
 .learn{
-    background-color: blueviolet;
+    
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    color: blueviolet;
+    display: block;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+}
+.benefits{
+background-color: aqua;
+display: contents;
+}
+.program{
+    background-color: brown;
+    display: block;
+    text-align: left;
+}
+.main container{
+   display: flex;
+   width: 200px;
+   margin: 10px;
+   border: 3px saddlebrown;
 }
