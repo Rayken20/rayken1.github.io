@@ -1,27 +1,25 @@
 .head{
+    background-color: gray;
     display: flex;
-    background-color: grey;
-    justify-content: center;
-    padding: 10px 10px 10px 10px;
-    margin: 20px 10px 10px 30px;
-    border: 2px solid black;
+    justify-content: space-between;
+    padding: 2px;
+    margin: 0px 20px;
+    text-align: center;
+}
+.head:hover{
+    background-color:blueviolet;
 }
 .welcome{
     display: contents;
     justify-content: center;
 }
-.about{
-    text-align: right;
-    justify-content: right;
-}
-.contact{
-    text-align: right;
-    justify-content: right;
+ol{
+    list-style: none;
 }
 .learn{
     
-    display: flex;
-    flex-direction: column;
+    display: contents;
+    flex-direction: row;
 }
 .project{
     color: blueviolet;
